@@ -1,4 +1,4 @@
-# my-project
+# Vue.js for dynamic bar charts
 
 > A Vue.js project
 
