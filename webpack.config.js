@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './build'),
     publicPath: 'https://yoanad.github.io/dataVisBar',
-    filename: 'index.js'
+    filename: 'build.js'
   },
   module: {
     rules: [
