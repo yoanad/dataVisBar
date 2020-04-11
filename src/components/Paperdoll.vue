@@ -7,7 +7,7 @@
           </section>
           <section class="section doll-wrapper">
             <div class="doll-body">
-                <img src="require('../assets/images/doll.png')" class="doll"/>
+                <img :src="require('../assets/images/doll.png')" class="doll"/>
                 <div class="selected-tshirts">
                     <img :src="require('../assets/images/tshirt-generic.png')" data-val="8662000" class="tshirt" id="selected-tshirt-0"/>
                     <img :src="require('../assets/images/tshirt-generic.png')" data-val="4914000" class="tshirt" id="selected-tshirt-1"/>
