@@ -6,8 +6,8 @@ const buildPath = path.resolve(__dirname, 'build');
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: buildPath,
-    publicPath: 'https://yoanad.github.io/dataVisBar',
+    path: path.resolve(__dirname, './build'),
+    publicPath: '/build/',
     filename: 'build.js'
   },
   module: {
@@ -67,7 +67,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]',
-          outputPath: 'assets/images/'
+          outputPath: './assets/images/'
         }
       }
     ]
@@ -90,6 +90,14 @@ module.exports = {
 }
 
 if (process.env.NODE_ENV === 'production') {
+
+  module.exports.entry = {
+    output: {
+      path: buildPath,
+      publicPath: 'https://yoanad.github.io/dataVisBar',
+      filename: 'build.js'
+    },
+  } 
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
