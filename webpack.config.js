@@ -1,10 +1,12 @@
 var path = require('path')
 var webpack = require('webpack')
 
+const buildPath = path.resolve(__dirname, 'build');
+
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './build'),
+    path: buildPath,
     publicPath: 'https://yoanad.github.io/dataVisBar',
     filename: 'build.js'
   },
