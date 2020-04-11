@@ -7,25 +7,25 @@
           </section>
           <section class="section doll-wrapper">
             <div class="doll-body">
-                <img class="doll"/>
+                <img src="require('../assets/images/doll.png')" class="doll"/>
                 <div class="selected-tshirts">
-                    <img src="../assets/images/tshirt-generic.png" data-val="8662000" class="tshirt" id="selected-tshirt-0"/>
-                    <img data-val="4914000" class="tshirt" id="selected-tshirt-1"/>
-                    <img data-val="2018000" class="tshirt" id="selected-tshirt-2"/>
-                    <img data-val="2249000" class="tshirt" id="selected-tshirt-3"/>
+                    <img :src="require('../assets/images/tshirt-generic.png')" data-val="8662000" class="tshirt" id="selected-tshirt-0"/>
+                    <img :src="require('../assets/images/tshirt-generic.png')" data-val="4914000" class="tshirt" id="selected-tshirt-1"/>
+                    <img :src="require('../assets/images/tshirt-generic.png')" data-val="2018000" class="tshirt" id="selected-tshirt-2"/>
+                    <img :src="require('../assets/images/tshirt-generic.png')" data-val="2249000" class="tshirt" id="selected-tshirt-3"/>
                 </div>
                 <div class="selected-jeans">
-                    <img data-val="8662000" class="jeans" id="selected-jeans-0"/>
-                    <img data-val="4914000" class="jeans" id="selected-jeans-1"/>
-                    <img data-val="2018000" class="jeans" id="selected-jeans-2"/>
-                    <img data-val="2249000" class="jeans" id="selected-jeans-3"/>
+                    <img :src="require('../assets/images/jeans-generic.png')" data-val="8662000" class="jeans" id="selected-jeans-0"/>
+                    <img :src="require('../assets/images/jeans-generic.png')" data-val="4914000" class="jeans" id="selected-jeans-1"/>
+                    <img :src="require('../assets/images/jeans-generic.png')" data-val="2018000" class="jeans" id="selected-jeans-2"/>
+                    <img :src="require('../assets/images/jeans-generic.png')" data-val="2249000" class="jeans" id="selected-jeans-3"/>
                 </div>
             </div>
             <div class="clothes-wrapper">
                 <div class="tshirts-wrapper">
                     <div data-id="0" class="card tshirt-card">
                       <div class="card-content">
-                        <img class="tshirt tshirt-option"/>
+                        <img :src="require('../assets/images/tshirt-generic.png')" class="tshirt tshirt-option"/>
                         <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">India</span></p>
                         <p class="is-6">Water usage:</p>
                         <div class="drop-container">
@@ -36,7 +36,7 @@
 
                     <div data-id="1" class="card tshirt-card">
                       <div class="card-content">
-                        <img class="tshirt tshirt-option"/>
+                        <img :src="require('../assets/images/tshirt-generic.png')" class="tshirt tshirt-option"/>
                         <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">Pakistan</span></p>
                         <p class="is-6">Water usage:</p>
                         <div class="drop-container">
@@ -46,7 +46,7 @@
                     </div>
                     <div data-id="2" class="card tshirt-card">
                       <div class="card-content">
-                        <img class="tshirt tshirt-option"/>
+                        <img :src="require('../assets/images/tshirt-generic.png')" class="tshirt tshirt-option"/>
                         <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">China</span></p>
                         <p class="is-6">Water usage:</p>
                         <div class="drop-container">
@@ -56,7 +56,7 @@
                     </div>
                     <div data-id="3" class="card tshirt-card">
                       <div class="card-content">
-                        <img data-id="3" class="tshirt tshirt-option"/>
+                        <img :src="require('../assets/images/tshirt-generic.png')" data-id="3" class="tshirt tshirt-option"/>
                         <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">USA</span></p>
                         <p class="is-6">Water usage:</p>
                         <div class="drop-container">
@@ -69,7 +69,7 @@
                 <div class="jeans-wrapper">
                   <div data-id="0" class="card jeans-card">
                     <div class="card-content">
-                      <img class="jeans jeans-option"/>
+                      <img src="require('../assets/images/jeans-generic.png')" class="jeans jeans-option"/>
                       <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">India</span></p>
                       <p class="is-6">Water usage:</p>
                       <div class="drop-container">
@@ -79,7 +79,7 @@
                   </div>
                   <div data-id="1" class="card jeans-card">
                     <div class="card-content">
-                      <img class="jeans jeans-option"/>
+                      <img src="require('../assets/images/jeans-generic.png')" class="jeans jeans-option"/>
                       <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">Pakistan</span></p>
                       <p class="is-6">Water usage:</p>
                       <div class="drop-container">
@@ -89,7 +89,7 @@
                   </div>
                   <div data-id="2" class="card jeans-card">
                     <div class="card-content">
-                      <img class="jeans jeans-option"/>
+                      <img src="require('../assets/images/jeans-generic.png')" class="jeans jeans-option"/>
                       <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">China</span></p>
                       <p class="is-6">Water usage:</p>
                       <div class="drop-container">
@@ -99,7 +99,7 @@
                   </div>
                   <div data-id="3" class="card jeans-card">
                     <div class="card-content">
-                      <img class="jeans jeans-option"/>
+                      <img src="require('../assets/images/jeans-generic.png')" class="jeans jeans-option"/>
                       <p><span class=" is-6">Source: </span><span class=" is-6 is-bold">USA</span></p>
                       <p class="is-6">Water usage:</p>
                       <div class="drop-container">
@@ -144,12 +144,12 @@
 // import 'normalize.css/normalize.css';
 // import './styles/index.scss';
 
-import dollImgSrc from '../assets/images/doll.png';
-import shirtImgSrc from '../assets/images/tshirt-generic.png';
-import jeansImgSrc from '../assets/images/jeans-generic.png';
+// import dollImgSrc from '../assets/images/doll.png';
+// import shirtImgSrc from '../assets/images/tshirt-generic.png';
+// import jeansImgSrc from '../assets/images/jeans-generic.png';
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelector('.doll').src = dollImgSrc;
+    // document.querySelector('.doll').src = dollImgSrc;
 
     const selectedTshirts = document.querySelector('.selected-tshirts');
     const selectedJeans = document.querySelector('.selected-jeans');
@@ -228,13 +228,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const tshirts = document.querySelectorAll('.tshirt');
     const jeans = document.querySelectorAll('.jeans');
 
-    tshirts.forEach((el)=> {
-        el.src = shirtImgSrc;
-    });
+    // tshirts.forEach((el)=> {
+    //     el.src = shirtImgSrc;
+    // });
 
-    jeans.forEach((el)=> {
-        el.src = jeansImgSrc;
-    });
+    // jeans.forEach((el)=> {
+    //     el.src = jeansImgSrc;
+    // });
 });
 
 export default {
