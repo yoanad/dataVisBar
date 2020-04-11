@@ -9,7 +9,7 @@
             <div class="doll-body">
                 <img class="doll"/>
                 <div class="selected-tshirts">
-                    <img data-val="8662000" class="tshirt" id="selected-tshirt-0"/>
+                    <img src="../assets/images/tshirt-generic.png" data-val="8662000" class="tshirt" id="selected-tshirt-0"/>
                     <img data-val="4914000" class="tshirt" id="selected-tshirt-1"/>
                     <img data-val="2018000" class="tshirt" id="selected-tshirt-2"/>
                     <img data-val="2249000" class="tshirt" id="selected-tshirt-3"/>
