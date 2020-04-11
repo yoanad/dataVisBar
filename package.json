@@ -1,6 +1,6 @@
 {
-  "name": "my-project",
-  "description": "A Vue.js project",
+  "name": "datavis-paperdoll",
+  "description": "A project created for the DataVis 2020 course at the University of Edinburgh",
   "version": "1.0.0",
   "author": "",
   "license": "MIT",

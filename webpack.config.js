@@ -4,9 +4,9 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './build'),
     publicPath: 'https://yoanad.github.io/dataVisBar',
-    filename: 'build.js'
+    filename: 'index.js'
   },
   module: {
     rules: [
